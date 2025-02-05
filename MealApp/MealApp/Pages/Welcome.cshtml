@@ -1,0 +1,48 @@
+﻿@page
+@model MealApp.Pages.WelcomeModel
+@{
+    Layout = "_Layout";  // Reference the layout file that contains the sidebar
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start a New Plan</title>
+    <style>
+        h2 {
+            font-size: 36px;
+            color: #4CAF50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 18px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            button:hover {
+                background-color: #45a049;
+            }
+    </style>
+</head>
+<body>
+
+    <!-- Welcome Page Content -->
+    <h2>Build Your Personalized Plan</h2>
+
+    <!-- Start a New Plan button -->
+    <form method="post">
+        <button type="submit">Start a New Plan</button>
+    </form>
+
+</body>
+</html>

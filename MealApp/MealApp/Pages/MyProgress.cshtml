@@ -1,0 +1,99 @@
+﻿@page
+@using Newtonsoft.Json
+@model MealApp.Pages.MyProgressModel
+@{
+    ViewData["Title"] = "My Weight Progress";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weight Progress</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <h1>My Weight Progress</h1>
+
+        <!-- Weight Input Form -->
+        <form method="post">
+            <div style="margin-bottom: 20px;">
+                <label for="weight">Enter Today's Weight (kg):</label><br>
+                <input type="number" id="weight" name="weight" step="0.1" required>
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="date">Date:</label><br>
+                <input type="date" id="date" name="date" value="@DateTime.Now.ToString("yyyy-MM-dd")" required>
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="period">Select Progress Period (in days):</label><br>
+                <input type="number" id="period" name="period" min="1"a value="30" required>
+            </div>
+            <button type="submit" formaction="/MyProgress?handler=SubmitWeight" style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px;">Submit</button>
+        </form>
+
+        <!-- Line Graph -->
+        <div style="margin-top: 40px;">
+            <canvas id="weightChart" style="height: 350px;"></canvas>
+        </div>
+    </div>
+
+    <script>
+        // Prepare data for the graph
+        const labels = @Html.Raw(JsonConvert.SerializeObject(Model.WeightProgress.Select(w => w.Date).ToList()));
+        const weights = @Html.Raw(JsonConvert.SerializeObject(Model.WeightProgress.Select(w => w.Weight).ToList()));
+
+        // Get user-selected period
+        const period = parseInt(document.getElementById('period').value);
+
+        // Adjust the labels based on the period (For example, if 30 days is selected)
+        const adjustedLabels = labels.slice(-period);  // Get the last 'n' days based on user input
+        const adjustedWeights = weights.slice(-period);  // Adjust the data to match the selected period
+
+        // Render the graph
+        const ctx = document.getElementById('weightChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: adjustedLabels,
+                datasets: [{
+                    label: 'Weight Progress (kg)',
+                    data: adjustedWeights,
+                    borderColor: '#007BFF',
+                    backgroundColor: 'rgba(0, 123, 255, 0.1)',
+                    fill: true,
+                    lineTension: 0.3,
+                    borderWidth: 2,
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Date',
+                            font: { size: 14 }
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Weight (kg)',
+                            font: { size: 14 }
+                        },
+                        beginAtZero: false
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

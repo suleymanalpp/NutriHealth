@@ -1,0 +1,16 @@
+﻿@page
+@model MealApp.Pages.MacrosCaloriesModel
+@{
+    ViewData["Title"] = "Macro Calories";
+}
+
+<h1>Macro Calories</h1>
+<p><strong>CaloriGoal (cal):</strong> @Model.CaloriGoal</p>
+<p><strong>Protein (grams):</strong> @Model.ProteinGrams</p>
+<p><strong>Carbohydrates (grams):</strong> @Model.CarbGrams</p>
+<p><strong>Fats (grams):</strong> @Model.FatGrams</p>
+
+@if (Model.ErrorMessage != null)
+{
+    <p style="color:red;">@Model.ErrorMessage</p>
+}

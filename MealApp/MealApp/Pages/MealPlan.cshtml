@@ -1,0 +1,76 @@
+﻿@page
+@model MealApp.Pages.MealPlanModel
+@{
+    ViewData["Title"] = "Meal Plan";
+}
+
+<h1>Meal Plan</h1>
+
+<p>Click on a meal type to generate a recipe:</p>
+
+<div style="display: flex; justify-content: space-around; margin-top: 20px;">
+    <!-- Breakfast Button and Details -->
+    <div style="text-align: center; width: 30%;">
+        <form method="post" asp-page-handler="GetMeal">
+            <input type="hidden" name="mealType" value="Breakfast" />
+            <button type="submit" style="padding: 10px 20px; font-size: 16px;">Get Breakfast</button>
+        </form>
+
+        @if (Model.SelectedMealType == "Breakfast" && Model.SelectedMeal != null)
+        {
+            <div style="margin-top: 20px; border: 1px solid #ddd; border-radius: 8px; padding: 10px; text-align: center;">
+                <img src="https://spoonacular.com/recipeImages/@Model.SelectedMeal.Id-556x370.jpg"
+                     alt="@Model.SelectedMeal.Title" style="max-width: 100%; border-radius: 8px;" />
+                <h3>@Model.SelectedMeal.Title</h3>
+                <p><strong>Ready in:</strong> @Model.SelectedMeal.ReadyInMinutes minutes</p>
+                <p><strong>Servings:</strong> @Model.SelectedMeal.Servings</p>
+                <a href="@Model.SelectedMeal.SourceUrl" target="_blank" style="color: #007bff;">View Recipe</a>
+            </div>
+        }
+    </div>
+
+    <!-- Lunch Button and Details -->
+    <div style="text-align: center; width: 30%;">
+        <form method="post" asp-page-handler="GetMeal">
+            <input type="hidden" name="mealType" value="Lunch" />
+            <button type="submit" style="padding: 10px 20px; font-size: 16px;">Get Lunch</button>
+        </form>
+
+        @if (Model.SelectedMealType == "Lunch" && Model.SelectedMeal != null)
+        {
+            <div style="margin-top: 20px; border: 1px solid #ddd; border-radius: 8px; padding: 10px; text-align: center;">
+                <img src="https://spoonacular.com/recipeImages/@Model.SelectedMeal.Id-556x370.jpg"
+                     alt="@Model.SelectedMeal.Title" style="max-width: 100%; border-radius: 8px;" />
+                <h3>@Model.SelectedMeal.Title</h3>
+                <p><strong>Ready in:</strong> @Model.SelectedMeal.ReadyInMinutes minutes</p>
+                <p><strong>Servings:</strong> @Model.SelectedMeal.Servings</p>
+                <a href="@Model.SelectedMeal.SourceUrl" target="_blank" style="color: #007bff;">View Recipe</a>
+            </div>
+        }
+    </div>
+
+    <!-- Dinner Button and Details -->
+    <div style="text-align: center; width: 30%;">
+        <form method="post" asp-page-handler="GetMeal">
+            <input type="hidden" name="mealType" value="Dinner" />
+            <button type="submit" style="padding: 10px 20px; font-size: 16px;">Get Dinner</button>
+        </form>
+
+        @if (Model.SelectedMealType == "Dinner" && Model.SelectedMeal != null)
+        {
+            <div style="margin-top: 20px; border: 1px solid #ddd; border-radius: 8px; padding: 10px; text-align: center;">
+                <img src="https://spoonacular.com/recipeImages/@Model.SelectedMeal.Id-556x370.jpg"
+                     alt="@Model.SelectedMeal.Title" style="max-width: 100%; border-radius: 8px;" />
+                <h3>@Model.SelectedMeal.Title</h3>
+                <p><strong>Ready in:</strong> @Model.SelectedMeal.ReadyInMinutes minutes</p>
+                <p><strong>Servings:</strong> @Model.SelectedMeal.Servings</p>
+                <a href="@Model.SelectedMeal.SourceUrl" target="_blank" style="color: #007bff;">View Recipe</a>
+            </div>
+        }
+    </div>
+</div>
+
+@if (ViewData["Error"] != null)
+{
+    <p style="color:red; text-align:center;">@ViewData["Error"]</p>
+}

@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\suley\\source\\repos\\MealApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|c:\\users\\suley\\source\\repos\\mealapp\\mealapp\\pages\\personalinfo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|solutionrelative:mealapp\\pages\\personalinfo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|c:\\users\\suley\\source\\repos\\mealapp\\mealapp\\pages\\macroscalories.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|solutionrelative:mealapp\\pages\\macroscalories.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|c:\\users\\suley\\source\\repos\\mealapp\\mealapp\\pages\\personalinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|solutionrelative:mealapp\\pages\\personalinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|c:\\users\\suley\\source\\repos\\mealapp\\mealapp\\pages\\myprogress.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|solutionrelative:mealapp\\pages\\myprogress.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|c:\\users\\suley\\source\\repos\\mealapp\\mealapp\\pages\\macroscalories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|solutionrelative:mealapp\\pages\\macroscalories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|c:\\users\\suley\\source\\repos\\mealapp\\mealapp\\pages\\mealplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|solutionrelative:mealapp\\pages\\mealplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|c:\\users\\suley\\source\\repos\\mealapp\\mealapp\\pages\\mealplan.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|solutionrelative:mealapp\\pages\\mealplan.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|c:\\users\\suley\\source\\repos\\mealapp\\mealapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|solutionrelative:mealapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|c:\\users\\suley\\source\\repos\\mealapp\\mealapp\\pages\\myprogress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|solutionrelative:mealapp\\pages\\myprogress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|c:\\users\\suley\\source\\repos\\mealapp\\mealapp\\mealapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|solutionrelative:mealapp\\mealapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|c:\\users\\suley\\source\\repos\\mealapp\\mealapp\\pages\\welcome.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|solutionrelative:mealapp\\pages\\welcome.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|c:\\users\\suley\\source\\repos\\mealapp\\mealapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|solutionrelative:mealapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|c:\\users\\suley\\source\\repos\\mealapp\\mealapp\\pages\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C29D356-26E2-40B5-8D92-9A222CC18F67}|MealApp\\MealApp.csproj|solutionrelative:mealapp\\pages\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Program.cs",
+              "RelativeDocumentMoniker": "MealApp\\Program.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Program.cs",
+              "RelativeToolTip": "MealApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T01:36:58.243Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MacrosCalories.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\MacrosCalories.cshtml.cs",
+              "RelativeDocumentMoniker": "MealApp\\Pages\\MacrosCalories.cshtml.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\MacrosCalories.cshtml.cs",
+              "RelativeToolTip": "MealApp\\Pages\\MacrosCalories.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T20:45:57.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonalInfo.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\PersonalInfo.cshtml.cs",
+              "RelativeDocumentMoniker": "MealApp\\Pages\\PersonalInfo.cshtml.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\PersonalInfo.cshtml.cs",
+              "RelativeToolTip": "MealApp\\Pages\\PersonalInfo.cshtml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T20:13:27.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyProgress.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\MyProgress.cshtml.cs",
+              "RelativeDocumentMoniker": "MealApp\\Pages\\MyProgress.cshtml.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\MyProgress.cshtml.cs",
+              "RelativeToolTip": "MealApp\\Pages\\MyProgress.cshtml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T00:30:14.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonalInfo.cshtml",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\PersonalInfo.cshtml",
+              "RelativeDocumentMoniker": "MealApp\\Pages\\PersonalInfo.cshtml",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\PersonalInfo.cshtml",
+              "RelativeToolTip": "MealApp\\Pages\\PersonalInfo.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwDkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T20:10:00.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MacrosCalories.cshtml",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\MacrosCalories.cshtml",
+              "RelativeDocumentMoniker": "MealApp\\Pages\\MacrosCalories.cshtml",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\MacrosCalories.cshtml",
+              "RelativeToolTip": "MealApp\\Pages\\MacrosCalories.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T20:11:07.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MealPlan.cshtml",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\MealPlan.cshtml",
+              "RelativeDocumentMoniker": "MealApp\\Pages\\MealPlan.cshtml",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\MealPlan.cshtml",
+              "RelativeToolTip": "MealApp\\Pages\\MealPlan.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T20:11:29.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyProgress.cshtml",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\MyProgress.cshtml",
+              "RelativeDocumentMoniker": "MealApp\\Pages\\MyProgress.cshtml",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\MyProgress.cshtml",
+              "RelativeToolTip": "MealApp\\Pages\\MyProgress.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAB4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T23:24:54.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MealPlan.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\MealPlan.cshtml.cs",
+              "RelativeDocumentMoniker": "MealApp\\Pages\\MealPlan.cshtml.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\MealPlan.cshtml.cs",
+              "RelativeToolTip": "MealApp\\Pages\\MealPlan.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T23:04:53.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MealApp.csproj",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\MealApp.csproj",
+              "RelativeDocumentMoniker": "MealApp\\MealApp.csproj",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\MealApp.csproj",
+              "RelativeToolTip": "MealApp\\MealApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T18:28:01.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MealApp\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MealApp\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T01:51:50.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Welcome.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\Welcome.cshtml.cs",
+              "RelativeDocumentMoniker": "MealApp\\Pages\\Welcome.cshtml.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\Welcome.cshtml.cs",
+              "RelativeToolTip": "MealApp\\Pages\\Welcome.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T21:25:12.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Welcome.cshtml",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\Welcome.cshtml",
+              "RelativeDocumentMoniker": "MealApp\\Pages\\Welcome.cshtml",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\MealApp\\MealApp\\Pages\\Welcome.cshtml",
+              "RelativeToolTip": "MealApp\\Pages\\Welcome.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T20:09:13.646Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

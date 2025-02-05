@@ -1,0 +1,78 @@
+﻿@page
+@model MealApp.Pages.PersonalInfoModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMR Calculator</title>
+</head>
+<body>
+    <h2>BMR Calculator</h2>
+
+    <form method="post">
+        <!-- Weight input -->
+        <div class="form-group">
+            <label for="Weight">Weight:</label>
+            <input type="number" id="Weight" name="Weight" class="form-control" asp-for="Weight" required placeholder="Enter your weight" />
+            <label for="WeightUnit">Weight Unit:</label>
+            <select id="WeightUnit" name="WeightUnit">
+                <option value="kg">Kg</option>
+                <option value="lbs">Pounds</option>
+            </select>
+        </div>
+
+        <!-- Height input -->
+        <div class="form-group">
+            <label for="Height">Height:</label>
+            <input type="number" id="Height" name="Height" class="form-control" asp-for="Height" required placeholder="Enter your height" />
+            <label for="HeightUnit">Height Unit:</label>
+            <select id="HeightUnit" name="HeightUnit">
+                <option value="cm">Centimeters</option>
+                <option value="ft">Feet/Inches</option>
+            </select>
+        </div>
+
+        <!-- Age input -->
+        <div class="form-group">
+            <label for="Age">Age:</label>
+            <input type="number" id="Age" name="Age" class="form-control" asp-for="Age" required placeholder="Enter your age" />
+        </div>
+
+        <!-- Sex input -->
+        <div class="form-group">
+            <label>Sex:</label>
+            <input type="radio" name="Sex" id="Male" value="M" asp-for="Sex" /> Male
+            <input type="radio" name="Sex" id="Female" value="F" asp-for="Sex" /> Female
+        </div>
+
+        <!-- Activity Level input -->
+        <div class="form-group">
+            <label>Activity Level:</label>
+            <input type="radio" name="ActivityLevel" value="1.200" asp-for="ActivityLevel" /> Sedentary 🛋️ (Little to no exercise)
+            <input type="radio" name="ActivityLevel" value="1.375" asp-for="ActivityLevel" /> Lightly Active 🚶‍♂️ (Exercise 1-3 days a week)
+            <input type="radio" name="ActivityLevel" value="1.550" asp-for="ActivityLevel" /> Moderately Active 🏋️‍♀️ (Exercise 3-5 days a week)
+            <input type="radio" name="ActivityLevel" value="1.725" asp-for="ActivityLevel" /> Very Active 🏃‍♂️ (Exercise 6-7 days a week)
+            <input type="radio" name="ActivityLevel" value="1.900" asp-for="ActivityLevel" /> Extremely Active 💪 (Intense exercise, physical job)
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Calculate BMR</button>
+        </div>
+    </form>
+
+    @if (Model.Bmr > 0)
+    {
+        <h3>Your BMR: @Model.Bmr</h3>
+        
+        <ul>
+            <li>Protein: @HttpContext.Session.GetInt32("ProteinGrams") g</li>
+            <li>Carbohydrates: @HttpContext.Session.GetInt32("CarbGrams") g</li>
+            <li>Fats: @HttpContext.Session.GetInt32("FatGrams") g</li>
+        </ul>
+    }
+</body>
+</html>
